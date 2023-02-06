@@ -1,11 +1,10 @@
 import './App.css';
+import TodolistContainers from './Containers/TodolistContainers';
 
 function App() {
   return (
     <>
-      <center>
-        Redux-Todo
-      </center>
+      <TodolistContainers />
     </>
   );
 }
